@@ -1,14 +1,14 @@
 
 // Mythic Battles TCG JavaScript
 const cardPool = [
-  { id: 1, name: "Inferno Dragon", atk: 8, def: 6, sp: "Burn", rarity: "Rare", color: "#ff4500", img: "https://via.placeholder.com/300x400?text=Inferno+Dragon", lore: "A legendary beast born from molten lava, said to melt mountains." },
-  { id: 2, name: "Aqua Serpent", atk: 6, def: 8, sp: "Flood", rarity: "Uncommon", color: "#1e90ff", img: "https://via.placeholder.com/300x400?text=Aqua+Serpent", lore: "Dweller of deep oceans, it commands the tides with a hiss." },
-  { id: 3, name: "Terra Golem", atk: 7, def: 9, sp: "Shield", rarity: "Rare", color: "#8b4513", img: "https://via.placeholder.com/300x400?text=Terra+Golem", lore: "A colossus forged from ancient stone and earth magic." },
-  { id: 4, name: "Wind Falcon", atk: 9, def: 5, sp: "Gale", rarity: "Common", color: "#4682b4", img: "https://via.placeholder.com/300x400?text=Wind+Falcon", lore: "Swift and silent, it commands the skies with a cry." },
-  { id: 5, name: "Shadow Lynx", atk: 10, def: 4, sp: "Ambush", rarity: "Ultra Rare", color: "#2f4f4f", img: "https://via.placeholder.com/300x400?text=Shadow+Lynx", lore: "Stalking the night, it strikes from darkness with precision." },
-  { id: 6, name: "Solar Phoenix", atk: 12, def: 7, sp: "Rebirth", rarity: "Legendary", color: "#cc3300", img: "https://via.placeholder.com/300x400?text=Solar+Phoenix", lore: "Reborn from ash, this celestial bird radiates eternal fire." },
-  { id: 7, name: "Storm Elemental", atk: 11, def: 8, sp: "Discharge", rarity: "Ultra Rare", color: "#008080", img: "https://via.placeholder.com/300x400?text=Storm+Elemental", lore: "Electric rage given form." },
-  { id: 8, name: "Wispling", atk: 4, def: 3, sp: "Illuminate", rarity: "Common", color: "#555555", img: "https://via.placeholder.com/300x400?text=Wispling", lore: "Glows bright enough to blind its foes." }
+  { id: 1, name: "Inferno Dragon", atk: 8, def: 6, sp: "Burn", rarity: "Rare", color: "#ff4500", img: "cards/Inferno Dragon.png", lore: "A legendary beast born from molten lava, said to melt mountains." },
+  { id: 2, name: "Aqua Serpent", atk: 6, def: 8, sp: "Flood", rarity: "Uncommon", color: "#1e90ff", img: "cards/Aqua Serpent.png", lore: "Dweller of deep oceans, it commands the tides with a hiss." },
+  { id: 3, name: "Terra Golem", atk: 7, def: 9, sp: "Shield", rarity: "Rare", color: "#8b4513", img: "cards/Terra Golem.png", lore: "A colossus forged from ancient stone and earth magic." },
+  { id: 4, name: "Wind Falcon", atk: 9, def: 5, sp: "Gale", rarity: "Common", color: "#4682b4", img: "cards/Wind Falcon.png", lore: "Swift and silent, it commands the skies with a cry." },
+  { id: 5, name: "Shadow Lynx", atk: 10, def: 4, sp: "Ambush", rarity: "Ultra Rare", color: "#2f4f4f", img: "cards/Shadow Lynx.png", lore: "Stalking the night, it strikes from darkness with precision." },
+  { id: 6, name: "Solar Phoenix", atk: 12, def: 7, sp: "Rebirth", rarity: "Legendary", color: "#cc3300", img: "cards/Solar Phoenix.png", lore: "Reborn from ash, this celestial bird radiates eternal fire." },
+  { id: 7, name: "Storm Elemental", atk: 11, def: 8, sp: "Discharge", rarity: "Ultra Rare", color: "#008080", img: "cards/Storm Elemental.png", lore: "Electric rage given form." },
+  { id: 8, name: "Wispling", atk: 4, def: 3, sp: "Illuminate", rarity: "Common", color: "#555555", img: "cards/Wispling.png", lore: "Glows bright enough to blind its foes." }
 ];
 
 const pullRates = {
